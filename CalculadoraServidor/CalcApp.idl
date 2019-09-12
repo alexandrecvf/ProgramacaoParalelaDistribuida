@@ -1,0 +1,8 @@
+module CalculadoraApp{
+	interface CalculadoraServer{
+		long somar(in long a, in long b);
+		long subtrair(in long a, in long b);
+		long multiplicar(in long a, in long b);
+		double dividir(in long a, in long b);
+	};
+};
