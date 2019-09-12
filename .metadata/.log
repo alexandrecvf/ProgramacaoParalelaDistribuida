@@ -63,3 +63,9 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 
 !ENTRY org.eclipse.jface.text 2 0 2019-09-12 08:06:03.177
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-09-12 08:32:19.703
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-09-12 08:32:19.719
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

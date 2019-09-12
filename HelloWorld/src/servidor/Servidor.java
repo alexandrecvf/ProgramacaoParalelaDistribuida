@@ -2,7 +2,6 @@ package servidor;
 
 import org.omg.CORBA.ORB;
 import org.omg.CosNaming.NameComponent;
-import org.omg.CosNaming.NamingContext;
 import org.omg.CosNaming.NamingContextExt;
 import org.omg.CosNaming.NamingContextExtHelper;
 import org.omg.PortableServer.POA;
