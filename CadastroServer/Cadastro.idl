@@ -1,0 +1,22 @@
+module cadastroPessoa{
+	interface Pessoa{
+		void Pessoa();
+		long getId();
+		void setId(in long id);
+		string getNome();
+		void setNome(in string nome);
+		string getEmail();
+		void setEmail(in string email);
+	};
+	
+	interface PessoaDAO{
+		struct PessoaRetorno {long id; string nome; string email;};
+		void PessoaDAO();
+		void adicionar (in Pessoa pessoa);
+		void remover (in string nomePessoa);
+		PessoaRetorno pesquisar(in string nomePessoa);
+		
+	};
+
+
+};
